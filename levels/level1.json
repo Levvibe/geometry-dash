@@ -1,0 +1,27 @@
+{
+  "meta": { "name": "Neon Steps", "author": "Studio Placeholder", "songBpm": 140, "length": 5600 },
+  "startX": 100,
+  "endX": 5600,
+  "objects": [
+    { "type": "platform", "x": 500, "y": 700, "w": 1200, "h": 40 },
+    { "type": "platform", "x": 1700, "y": 700, "w": 900, "h": 40 },
+    { "type": "platform", "x": 2800, "y": 700, "w": 1000, "h": 40 },
+    { "type": "platform", "x": 4100, "y": 700, "w": 1100, "h": 40 },
+    { "type": "platform", "x": 5300, "y": 700, "w": 800, "h": 40 },
+
+    { "type": "hazard_spike", "x": 980, "y": 660, "w": 30, "h": 40 },
+    { "type": "hazard_spike", "x": 1020, "y": 660, "w": 30, "h": 40 },
+    { "type": "hazard_saw", "x": 2000, "y": 640, "w": 42, "h": 42 },
+    { "type": "hazard_laser", "x": 3200, "y": 640, "w": 30, "h": 120 },
+    { "type": "hazard_spike", "x": 4520, "y": 660, "w": 30, "h": 40 },
+
+    { "type": "ring_typeA", "x": 1260, "y": 560, "radius": 20 },
+    { "type": "ring_typeC", "x": 2500, "y": 500, "radius": 20 },
+    { "type": "ring_typeA", "x": 4680, "y": 570, "radius": 20 },
+
+    { "type": "jump_pad", "x": 2250, "y": 675, "w": 48, "h": 18 },
+    { "type": "portal_mode_glider", "x": 3450, "y": 600, "w": 40, "h": 120 },
+    { "type": "lift_pad", "x": 3720, "y": 650, "w": 48, "h": 18 },
+    { "type": "portal_mode_runner", "x": 4860, "y": 600, "w": 40, "h": 120 }
+  ]
+}
