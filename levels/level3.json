@@ -1,0 +1,41 @@
+{
+  "meta": { "name": "Fractured Velocity", "author": "Studio Placeholder", "songBpm": 172, "length": 8200 },
+  "startX": 100,
+  "endX": 8200,
+  "objects": [
+    { "type": "platform", "x": 650, "y": 700, "w": 1400, "h": 40 },
+    { "type": "platform", "x": 2300, "y": 700, "w": 700, "h": 40 },
+    { "type": "platform", "x": 3280, "y": 700, "w": 620, "h": 40 },
+    { "type": "platform", "x": 4200, "y": 700, "w": 720, "h": 40 },
+    { "type": "platform", "x": 5200, "y": 700, "w": 720, "h": 40 },
+    { "type": "platform", "x": 6200, "y": 700, "w": 760, "h": 40 },
+    { "type": "platform", "x": 7300, "y": 700, "w": 1200, "h": 40 },
+    { "type": "platform", "x": 3810, "y": 100, "w": 460, "h": 30 },
+
+    { "type": "hazard_spike", "x": 900, "y": 660, "w": 30, "h": 40 },
+    { "type": "hazard_spike", "x": 940, "y": 660, "w": 30, "h": 40 },
+    { "type": "hazard_saw", "x": 1820, "y": 640, "w": 44, "h": 44 },
+    { "type": "hazard_laser", "x": 2640, "y": 640, "w": 26, "h": 120 },
+    { "type": "hazard_saw", "x": 3560, "y": 140, "w": 44, "h": 44 },
+    { "type": "hazard_spike", "x": 4440, "y": 660, "w": 30, "h": 40 },
+    { "type": "hazard_laser", "x": 5860, "y": 620, "w": 26, "h": 160 },
+    { "type": "hazard_saw", "x": 7040, "y": 650, "w": 44, "h": 44 },
+
+    { "type": "portal_speed", "x": 1320, "y": 600, "w": 40, "h": 120, "speedTier": "fast" },
+    { "type": "portal_mode_glider", "x": 2140, "y": 600, "w": 40, "h": 120 },
+    { "type": "portal_gravity", "x": 3340, "y": 600, "w": 40, "h": 120 },
+    { "type": "portal_mode_pulse", "x": 4740, "y": 600, "w": 40, "h": 120 },
+    { "type": "portal_speed", "x": 6110, "y": 600, "w": 40, "h": 120, "speedTier": "normal" },
+    { "type": "portal_mode_runner", "x": 7480, "y": 600, "w": 40, "h": 120 },
+
+    { "type": "ring_typeA", "x": 1540, "y": 540, "radius": 20 },
+    { "type": "ring_typeB", "x": 2920, "y": 500, "radius": 20 },
+    { "type": "ring_typeC", "x": 5400, "y": 470, "radius": 20 },
+    { "type": "ring_typeA", "x": 6830, "y": 560, "radius": 20 },
+
+    { "type": "jump_pad", "x": 2470, "y": 675, "w": 48, "h": 18 },
+    { "type": "lift_pad", "x": 3900, "y": 110, "w": 48, "h": 18 },
+    { "type": "angle_pad", "x": 5600, "y": 675, "w": 48, "h": 18 },
+    { "type": "jump_pad", "x": 7780, "y": 675, "w": 48, "h": 18 }
+  ]
+}

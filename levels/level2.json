@@ -1,0 +1,34 @@
+{
+  "meta": { "name": "Polarity Riptide", "author": "Studio Placeholder", "songBpm": 158, "length": 6800 },
+  "startX": 100,
+  "endX": 6800,
+  "objects": [
+    { "type": "platform", "x": 700, "y": 700, "w": 1600, "h": 40 },
+    { "type": "platform", "x": 2500, "y": 700, "w": 900, "h": 40 },
+    { "type": "platform", "x": 3600, "y": 700, "w": 800, "h": 40 },
+    { "type": "platform", "x": 4800, "y": 700, "w": 1000, "h": 40 },
+    { "type": "platform", "x": 6200, "y": 700, "w": 1200, "h": 40 },
+    { "type": "platform", "x": 3350, "y": 70, "w": 700, "h": 30 },
+
+    { "type": "hazard_spike", "x": 1200, "y": 660, "w": 30, "h": 40 },
+    { "type": "hazard_saw", "x": 1860, "y": 640, "w": 42, "h": 42 },
+    { "type": "hazard_laser", "x": 2900, "y": 620, "w": 26, "h": 160 },
+    { "type": "hazard_spike", "x": 4320, "y": 660, "w": 30, "h": 40 },
+    { "type": "hazard_saw", "x": 5920, "y": 650, "w": 42, "h": 42 },
+
+    { "type": "portal_speed", "x": 1480, "y": 600, "w": 40, "h": 120, "speedTier": "fast" },
+    { "type": "portal_mode_glider", "x": 2200, "y": 600, "w": 40, "h": 120 },
+    { "type": "portal_gravity", "x": 3200, "y": 600, "w": 40, "h": 120 },
+    { "type": "portal_speed", "x": 3960, "y": 600, "w": 40, "h": 120, "speedTier": "normal" },
+    { "type": "portal_mode_pulse", "x": 4480, "y": 600, "w": 40, "h": 120 },
+    { "type": "portal_mode_runner", "x": 5660, "y": 600, "w": 40, "h": 120 },
+
+    { "type": "ring_typeB", "x": 2740, "y": 520, "radius": 20 },
+    { "type": "ring_typeC", "x": 5130, "y": 480, "radius": 20 },
+    { "type": "ring_typeA", "x": 6060, "y": 550, "radius": 20 },
+
+    { "type": "jump_pad", "x": 1760, "y": 675, "w": 48, "h": 18 },
+    { "type": "lift_pad", "x": 3420, "y": 90, "w": 48, "h": 18 },
+    { "type": "angle_pad", "x": 5360, "y": 675, "w": 48, "h": 18 }
+  ]
+}
